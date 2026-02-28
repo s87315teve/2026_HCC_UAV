@@ -20,7 +20,7 @@ ollama run <model_name>  #例如 ollama run gemma3:270m
 ```bash
 ollama run <model_name> --verbose
 ```
-- 下載指定model
+- 下載指定model(純下載，不會執行)
 ```bash
 ollama pull <model_name>
 ```
@@ -44,3 +44,9 @@ ollama help
 conda activate UAV_env
 pip install ollama
 ```
+- 執行`ollama_example.py`
+```bash
+python ollama_example.py
+```
+- 如果看到以下畫面且可以對話，python環境就算是建置完成了
+![alt text](img/ollama_example_output.png)

@@ -59,15 +59,11 @@ conda create --name UAV_env python=3.11
 ```bash
 conda activate tello
 ```
-3. 安裝lib
-```bash
-pip install djitellopy2
-```
-4. 進入Lab1資料夾
+3. 進入Lab1資料夾
 ```bash
 cd 2026_HCC_UAV/Lab1
 ```
-5. 執行範例程式
+4. 執行範例程式
 ```bash
 python example.py
 ```
