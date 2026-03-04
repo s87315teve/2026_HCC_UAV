@@ -23,8 +23,6 @@ python yolo_example.py
 執行成功的話會看到畫面上有框框把辨識到的物件標示出來
 
 
-執行成功的話會看到畫面上有框框把辨識到的物件標示出來
-
 
 ## Reference
 - Ultralytics YOLO Docs: https://docs.ultralytics.com/

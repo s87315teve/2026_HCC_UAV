@@ -2,9 +2,11 @@
 import cv2
 import time
 
-# 開啟Tello的攝影機串流
+# =========TODO: 開啟Tello的攝影機串流=========
+# hint: 可以參考Tello官方文件：https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf
+# 從官方文件找到對應的port
 # cap=cv2.VideoCapture("udp://192.168.10.1:?")
-
+# ===========================================
 # 開啟本地的攝影機(0是本地攝影機的編號，若有多個攝影機可以嘗試1、2等)
 cap=cv2.VideoCapture(0)
 
