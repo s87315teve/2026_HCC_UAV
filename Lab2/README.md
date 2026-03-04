@@ -9,16 +9,15 @@ conda activate UAV_env
 ```bash
 pip install opencv-python ultralytics
 ```
-- 執行`opencv_test.py`，測試opencv套件是否能夠正常運作
-```
-python opencv_test.py
-```
-成功執行的話會在電腦上看到鏡頭拍到的影像
 
-- 執行`yolo_example.py`，測試yolo套件是否能正常運作
+- 執行`yolo_example.py`
 ```bash
 python yolo_example.py
 ```
+
 執行成功的話會看到畫面上有框框把辨識到的物件標示出來
 
 
+## Reference
+- Ultralytics YOLO Docs: https://docs.ultralytics.com/
+- Model Prediction with Ultralytics YOLO: https://docs.ultralytics.com/modes/predict/
