@@ -4,6 +4,8 @@ from ultralytics import YOLO
 
 # 載入 YOLO26 nano 模型（第一次執行會自動下載權重），如果電腦性能夠好的話可以用更大的模型 例如 "yolo26s.pt" 或 "yolo26m.pt"
 model = YOLO("yolo26n.pt")
+
+# 可以使用硬體加速，但要確定硬體是否相容以及是否已安裝對應的驅動程式
 # model.to("cuda")  # 如果有 NVIDIA GPU，使用 CUDA 加速
 # model.to("mps") # 如果有 Apple M1/M2/......，使用 MPS 加速
 # 開啟攝影機（0 = 預設攝影機）
@@ -65,6 +67,9 @@ while True:
     cv2.imshow("YOLO26 即時偵測", annotated_frame)
 
     ## ========TODO: 在這裡可以根據偵測結果來控制無人機========
+    # hint: 根據物件在圖上的位置（例如 bounding box 的中心點 cx, cy）來決定要對無人機發出什麼指令
+    # hint: 發送指令之後要等無人機執行完畢再發送下一個指令，避免無人機來不及處理
+
 
 
     ## ==================================================

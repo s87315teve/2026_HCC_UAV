@@ -31,7 +31,6 @@ def recv():
     """
     while True:
         try:
-            # 監聽socket，收到資料時會解除阻塞
             # data  : 無人機回傳的原始bytes資料
             # server: 無人機的IP與port
             data, server = sock.recvfrom(1518)
