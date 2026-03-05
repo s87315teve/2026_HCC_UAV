@@ -57,7 +57,7 @@ conda create --name UAV_env python=3.11
 ```
 2. 進入虛擬環境
 ```bash
-conda activate tello
+conda activate UAV_env
 ```
 3. 進入Lab1資料夾
 ```bash
