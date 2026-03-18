@@ -42,11 +42,11 @@ ollama help
 - 進入虛擬環境，並安裝Ollama相關套件
 ```bash
 conda activate UAV_env
-pip install ollama
+pip install ollama openai
 ```
-- 執行`ollama_example.py`
+- 執行`local_llm_test.py`
 ```bash
-python ollama_example.py
+python local_llm_test.py
 ```
 - 如果看到以下畫面且可以對話，python環境就算是建置完成了
 ![alt text](img/ollama_example_output.png)
